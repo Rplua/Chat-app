@@ -1,0 +1,18 @@
+:root{
+    --PaleViolet: hsl(276, 100%, 81%);
+    --ModerateViolet: hsl(276, 55%, 52%);
+    --Grayish: hsl(206, 6%, 79%);
+    --Dark: hsl(271, 36%, 24%)
+    --DarKViolet: hsl(270, 7%, 64%);
+}
+
+body{
+    margin: 0;
+    padding: 0;
+
+}
+#gradiente{
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient( to right, hsl(293, 100%, 63%),hsl(264, 100%, 61%) );
+}
