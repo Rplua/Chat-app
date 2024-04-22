@@ -208,3 +208,53 @@ main{
     text-align: justify;
     margin-right: 19px;
 }
+#prices{
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.prices{
+    color: white;
+    background-image: linear-gradient(to left, hsl(264, 100%, 61%),hsl(293, 100%, 63%) );
+    height: 3em;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    width: 14em;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+.circulo{
+    content: "";
+    height: 15px;
+    width: 15px;
+    margin-left: 10px;
+    border-radius: 100%;
+    border: 2px solid white;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+}
+.wrapper-3{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 10px;
+}
+.wrapper-2{
+    display: flex;
+    align-items: center;
+    font-size: 10px;
+    justify-content: space-between;
+}
+.texto{
+    margin-left: 10px;
+}
+.dinero{
+
+    font-size: 15px;
+    font-weight: bold;
+    margin-right: 15px;
+}
